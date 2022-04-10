@@ -1,35 +1,103 @@
-body {
-    font-family: "Roboto";
-  }
-  
-  .color-main {
-    color: #666;
-  }
-  
-  .bg-main {
-    background-color: #eac926;
-  }
-  
-  .bg-blue {
-    background-color: #03264c;
-  }
-  
-  .bg-light-blue {
-    background-color: #1259c3;
-  }
-  
-  .bg-green {
-    background-color: #39b54a;
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  
-  .width-50 {
-    width: 50%;
-  }
-  
-  .width-100 {
-    width: 100%;
-  }
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.bg-main {
+  background-color: #eac926;
+}
+
+.bg-blue {
+  background-color: #03264c;
+}
+
+.bg-light-blue {
+  background-color: #1259c3;
+}
+
+.bg-green {
+  background-color: #39b54a;
+}
+
+.bg-ebebeb {
+  background-color: #ebebeb;
+}
+
+.color-ebebeb {
+  color: #ebebeb;
+}
+
+.texto-verde {
+  color: #39b54a;
+}
+
+.texto-gris-oscuro {
+  color: #666;
+}
+
+.precio {
+  font-size: 18px;
+  font-weight: 400;
+  flex-grow: 0.3;
+}
+
+.size-16 {
+  font-size: 16px;
+}
+
+.descuento {
+  align-self: center;
+  flex-grow: 0.7;
+}
+
+.descripcion {
+  font-weight: 400;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-50 {
+  width: 48.61%;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.padding-8 {
+  padding: 8px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-0 {
+  margin: 0%;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.size-icon {
+  size: 2em;
+}
+
+.bg-header {
+  padding: 10px;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.margin-bottom-10{
+  margin-bottom: 10px;
+}
